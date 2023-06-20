@@ -1,0 +1,2 @@
+# zavrsnitest
+Automatski testovi
