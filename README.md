@@ -25,7 +25,7 @@ project root directory, and populate it with proper data.
 This is the example `.env` file:
 ```dotenv
 # System setup
-USE_BROWSER="chrome"
+USE_BROWSER="firefox"
 # Login data
 LOGIN_USERNAME="FILL_IN_YOUR_USERNAME"
 LOGIN_PASSWORD="FILL_IN_YOUR_PASSWORD"

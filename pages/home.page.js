@@ -51,12 +51,13 @@ module.exports = class HomePage extends BasePage {
     }
 
     getPackageDiv(title) {
-        const xpathPackage = `//h3[contains(text(), "${title}")]/ancestor::div[contains(@class, "panel")]`;
-        return this.driver().findElement(By.xpath(xpathPackage));
+        const xpath = `//h3[normalize-space()='${title}']/ancestor::div[contains(@class, 'panel')]`;
+        
+        return this.driver().findElement(By.xpath(xpath));
     }
 
-    getQuantityDropdown(packageDiv) {
-        return packageDiv.findElement(By.name('quantity'))
+    getInputQuantity (packageDiv) {
+        return packageDiv.findElement(By.name('quantity'));
     }
 
     getQuantityOptions(quantityDropdown) {
@@ -65,6 +66,9 @@ module.exports = class HomePage extends BasePage {
 
     getOrderButton(packageDiv) {
         return packageDiv.findElement(By.className('btn btn-primary'))
+    }
 
+    getWelcomeBackTitle() {
+        return this.driver().findElement(By.tagName('h2')).getText();
     }
 }

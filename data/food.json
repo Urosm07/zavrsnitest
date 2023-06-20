@@ -1,0 +1,19 @@
+{
+  "account": {
+    "firstname": "uros",
+    "lastname": "milovanovic",
+    "email": "uros@nowhere.com",
+    "username": "urosmilovan",
+    "password": "lozinka"
+  },
+  "order": [
+    {
+      "package": "Double burger",
+      "quantity": 2
+    },
+    {
+      "package": "HEART ATTACK",
+      "quantity": 4
+    }
+  ]
+}

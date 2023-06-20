@@ -40,4 +40,8 @@ module.exports = class RegisterPage extends BasePage {
     fillInputPasswordConfirm(password) {
         this.driver().findElement(By.name('lozinkaOpet')).sendKeys(password);
     }
+
+    getSuccessAlertText() {
+        return this.driver().findElement(By.className('alert alert-success')).getText();
+    }
 }

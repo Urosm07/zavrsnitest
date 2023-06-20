@@ -23,7 +23,7 @@ module.exports = class CartPage extends BasePage {
     }
 
     actionEmptyCart() {
-        this.driver().get('http://shop.qa.rs/cart/empty');
+        this.driver().get('http://test.qa.rs/cart/empty');
     }
 
     getCheckoutButton() {
