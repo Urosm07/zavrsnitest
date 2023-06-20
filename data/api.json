@@ -1,0 +1,44 @@
+{
+  "user": {
+    "name": "Bob Buttons Test",
+    "email": "bob.buttons.test@example.local"
+  },
+  "room_type": {
+    "name": "Penthouse",
+    "beds": 8,
+    "spaces": 5,
+    "max_people": 8
+  },
+  "room_type_update": {
+    "name": "Penthouse",
+    "beds": 10,
+    "spaces": 6,
+    "max_people": 10
+  },
+  "room": {
+    "name": "Penthouse",
+    "type_id": 0,
+    "room_number": 601,
+    "price": 119.99
+  },
+  "room_update": {
+    "name": "Penthouse",
+    "type_id": 0,
+    "room_number": 601,
+    "price": 139.99
+  },
+  "bookings": [
+    {
+      "user_id": 0,
+      "room_id": 0,
+      "start_date": "2024-06-01",
+      "end_date": "2024-06-10",
+      "people": 2,
+      "with_breakfast": true,
+      "with_lunch": true,
+      "with_dinner": true,
+      "with_minibar": true,
+      "with_laundry": true
+    }
+  ]
+}

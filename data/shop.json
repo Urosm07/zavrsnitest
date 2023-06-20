@@ -1,0 +1,21 @@
+{
+  "account": {
+    "firstname": "Bob",
+    "lastname": "Buttons",
+    "email": "bob.buttons@example.local",
+    "address1": "Nova 2",
+    "city": "Novi Sad",
+    "zipCode": "21000",
+    "country": "Serbia"
+  },
+  "order": [
+    {
+      "package": "pro",
+      "quantity": 4
+    },
+    {
+      "package": "starter",
+      "quantity": 3
+    }
+  ]
+}
